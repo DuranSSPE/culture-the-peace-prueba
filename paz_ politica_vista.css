@@ -1,0 +1,74 @@
+body {
+
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+   
+}
+header {
+    background-color: #03d8f4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+section {
+    margin: 20px 0;
+    text-align: justify;
+}
+h1, h2 {
+    color: #333;
+}
+p {
+    color: #555;
+    line-height: 1.6;
+    text-align: justify;
+}
+ul {
+    color: #555;
+    margin-left: 20px;
+    text-align: justify;
+}
+.mainpage{
+text-decoration: none;
+color: rgb(167, 0, 0);
+
+}
+.mainpage:hover{
+    color: black;
+}
+
+footer {
+    background-color: #6a8d92;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+.footer{
+    text-align: center;
+}
+
+
+
+/*la animacion god*/
+
+.animated-text {
+  
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateX(-50px); /* Comienza fuera de la pantalla */
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+/* Animación de deslizamiento sutil */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Comienza a la izquierda */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Termina en su posición original */
+    }
+}

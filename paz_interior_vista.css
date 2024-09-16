@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #87ceeb;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+section {
+    padding: 20px;
+}
+.content {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.6;
+}
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 30px 0;
+   
+}
+footer {
+    background-color: #87ceeb;
+    color: white;
+    
+
+    text-align: center;
+    padding: 20px;
+
+  
+
+}
+
+
+/*la animacion god*/
+.animated-text {
+  
+
+    opacity: 0;
+    transform: translateX(-50px); /* Comienza fuera de la pantalla */
+    animation: slideIn 1.5s ease-out forwards;
+}
+
+/* Animación de deslizamiento sutil */
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px); /* Comienza a la izquierda */
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0); /* Termina en su posición original */
+    }
+}
+    
